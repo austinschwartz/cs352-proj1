@@ -4,10 +4,10 @@ import java.io.InputStreamReader;
 class DecimalParser {
     public static void main(String[] args) throws Exception {
         if (args.length == 0) {
-            System.out.println("Usage: java NumberParser value");
+            System.out.println("Usage: java DecimalParser value");
             System.exit(1);
         }
-        double val = MyParseDecimal(args[0]);
+        double val = myParseDecimal(args[0]);
         System.out.println("Value=" + val);
     }
 
